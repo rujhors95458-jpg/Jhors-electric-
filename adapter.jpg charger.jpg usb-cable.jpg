@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jhors Electric - Mobile Accessories</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 15px 0;
+      font-size: 1.5em;
+      letter-spacing: 1px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      width: 280px;
+      margin: 15px;
+      padding: 15px;
+      transition: transform 0.2s;
+    }
+    .product:hover {
+      transform: scale(1.05);
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    h2 {
+      margin: 10px 0;
+      color: #333;
+    }
+    p {
+      color: #555;
+    }
+    .price {
+      color: #e91e63;
+      font-weight: bold;
+    }
+    footer {
+      background: #222;
+      color: white;
+      padding: 10px 0;
+      margin-top: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<header>⚡ Jhors Electric - Mobile Accessories ⚡</header>
+
+<div class="container">
+  <div class="product">
+    <img src="charger.jpg" alt="Mobile Charger">
+    <h2>Fast Mobile Charger</h2>
+    <p>High-speed charging with durable design.</p>
+    <p class="price">₹299</p>
+  </div>
+
+  <div class="product">
+    <img src="usb-cable.jpg" alt="USB Cable">
+    <h2>USB Cable</h2>
+    <p>Strong, flexible and fast data transfer cable.</p>
+    <p class="price">₹149</p>
+  </div>
+
+  <div class="product">
+    <img src="adapter.jpg" alt="Power Adapter">
+    <h2>Power Adapter</h2>
+    <p>Compact and reliable power adapter for all devices.</p>
+    <p class="price">₹249</p>
+  </div>
+</div>
+
+<footer>
+  © 2025 Jhors Electric | All Rights Reserved
+</footer>
+
+</body>
+</html>
